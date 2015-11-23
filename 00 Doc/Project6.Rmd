@@ -1,0 +1,53 @@
+---
+title: "CS 329E Project 6"
+author: "Jonathan Ong, E. Clarissa Anjani Gondoprawiro"
+date: "November 22, 2015"
+output: html_document
+---
+
+## Link to our Shiny App:
+*Click Here: https://jonong.shinyapps.io/Project6Shiny
+
+
+## Step 1: Create scatterplot for server.R
+
+*The visualization below shows that between the ages of 11 and 14, there is the most variability in wages. The people with the highest wages are in this range, but so are the people with the lowest wages. 
+
+***Process*** <br/>
+1. Extract SQL query using json statement <br/>
+2. Copy and paste R code from Project 5 <br/>
+
+
+## Step 2: Create a crosstab for server.R
+*What stood out in the data is the blacks were most experienced as laborers and farmers, as well as managers, officials and proprietors in the professional and related service industry and public administration industry compared to Hispanics, and other racial ethnicities including White people, Asians, and Native Americans. 
+
+***Process*** <br/>
+1. Create code for reactive class for KPI <br/>
+2. Extract SQL query using json statement <br/>
+3. Copy and paste R code from Project 5 <br/>
+
+
+## Step 3: Create a barchart for server.R
+*The visualization below shows that higher pay in more physical jobs have a higher correlation with health problems. This could suggest that success in physical jobs takes a toll on the body.
+
+***Process*** <br/>
+1. Extract SQL query using json statement <br/>
+2. Copy and paste R code from Project 5 <br/>
+
+
+## Step 4: Create a visualization for datablend of two datasets for server.R
+*Although from 1980 to 1987, number of hours worked stay the same on average, however the wages of young males increased. This interesting phenomenon could be a result of inflation.
+
+***Process*** <br/>
+1. Extract SQL query using json statement <br/>
+2. Copy and paste R code from Project 5 <br/>
+
+
+## Step 5: Write code for ui.R
+
+***Process*** <br/>
+1. Create the navigation bar title <br/>
+2. Create tab for scatterplot and create sliders to adjust width and height<br/>
+3. Create tab for crosstab and scale for KPI, width, height, and label size. Also create a button to make crosstab appear. <br/>
+4. Create tab for barchart and scale for label size and width <br/>
+5. Create tab for datablend and create sliders to adjust width and height <br/>
